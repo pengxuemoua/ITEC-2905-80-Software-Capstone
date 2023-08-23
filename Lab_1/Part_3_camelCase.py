@@ -2,7 +2,7 @@ print('Welcome to the camelCase program!')
 
 camel_case = input('Please enter a sentence and our program will turn it into camelCase: ').lower()
 
-list_camel_case = camel_case.split(' ') #store input in a list
+list_camel_case = camel_case.split(' ') #store input in a list.
 
 #loop through list and camel case each word, then update the list
 for index in range(0, len(list_camel_case)):
